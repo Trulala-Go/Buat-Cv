@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:app="http://schemas.android.com/apk/res-auto"
+     android:layout_height="match_parent"
+     android:layout_width="match_parent"
+     android:background="#000000">
+
+    <LinearLayout
+         android:layout_height="match_parent"
+         android:layout_width="300dp"
+         android:visibility="gone"
+         android:background="#555555"
+         android:orientation="vertical"
+         android:id="@+id/liner">
+
+        <LinearLayout
+             android:layout_height="35dp"
+             android:layout_width="match_parent"
+             android:gravity="center_vertical">
+
+            <TextView
+                 android:layout_height="25dp"
+                 android:layout_width="25dp"
+                 android:background="#ff0000"
+                 android:gravity="center"
+                 android:text="X"
+                 android:id="@+id/keluar" />
+
+        </LinearLayout>
+
+        <LinearLayout
+             android:layout_height="match_parent"
+             android:layout_width="match_parent"
+             android:background="#000000"
+             android:layout_margin="10dp"
+             android:orientation="vertical">
+
+            <ImageView
+                 android:layout_height="40dp"
+                 android:layout_width="30dp"
+                 android:layout_margin="10dp"
+                 android:id="@+id/foto"
+                 android:layout_gravity="center_horizontal" />
+
+            <ScrollView
+                 android:layout_height="wrap_content"
+                 android:layout_width="match_parent"
+                 android:layout_margin="10dp">
+
+                <EditText
+                     android:layout_height="wrap_content"
+                     android:layout_width="match_parent"
+                     android:hint="Masukan Data Pribadi"
+                     android:textColor="#aaffff"
+                     android:id="@+id/pribadi" />
+
+            </ScrollView>
+
+            <ScrollView
+                 android:layout_height="wrap_content"
+                 android:layout_width="match_parent"
+                 android:layout_margin="10dp">
+
+                <EditText
+                     android:layout_height="wrap_content"
+                     android:layout_width="match_parent"
+                     android:hint="Masukan nama"
+                     android:textColor="#aaffff"
+                     android:id="@+id/nama" />
+
+            </ScrollView>
+
+            <ScrollView
+                 android:layout_height="wrap_content"
+                 android:layout_width="match_parent"
+                 android:layout_margin="10dp">
+
+                <EditText
+                     android:layout_height="wrap_content"
+                     android:layout_width="match_parent"
+                     android:hint="masukan kontak"
+                     android:textColor="#aaffff"
+                     android:id="@+id/kontak" />
+
+            </ScrollView>
+
+            <ScrollView
+                 android:layout_height="wrap_content"
+                 android:layout_width="match_parent"
+                 android:layout_margin="10dp">
+
+                <EditText
+                     android:layout_height="wrap_content"
+                     android:layout_width="match_parent"
+                     android:hint="masukan pendidikan"
+                     android:textColor="#aaffff"
+                     android:id="@+id/pendidikan" />
+
+            </ScrollView>
+
+            <ScrollView
+                 android:layout_height="wrap_content"
+                 android:layout_width="match_parent"
+                 android:layout_margin="10dp">
+
+                <EditText
+                     android:layout_height="wrap_content"
+                     android:layout_width="match_parent"
+                     android:hint="masukan pengalaman"
+                     android:textColor="#aaffff"
+                     android:id="@+id/pengalaman" />
+
+            </ScrollView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+         android:layout_height="match_parent"
+         android:layout_width="match_parent"
+         android:orientation="vertical">
+
+        <LinearLayout
+             android:layout_height="35dp"
+             android:layout_width="match_parent"
+             android:gravity="center_vertical"
+             android:background="#999999">
+
+            <ImageView
+                 android:layout_height="25dp"
+                 android:layout_width="25dp"
+                 android:src="@drawable/nav"
+                 android:layout_marginEnd="50dp"
+                 android:id="@+id/nav" />
+
+            <ImageView
+                 android:layout_height="25dp"
+                 android:layout_width="25dp"
+                 android:src="@drawable/simpan"
+                 android:id="@+id/simpan" />
+
+        </LinearLayout>
+
+        <LinearLayout
+             android:layout_height="match_parent"
+             android:layout_width="match_parent"
+             android:padding="10dp"
+             android:orientation="vertical"
+             android:id="@+id/liner_cv">
+
+            <LinearLayout
+                 android:layout_height="wrap_content"
+                 android:layout_width="match_parent"
+                 android:gravity="center">
+
+                <ImageView
+                     android:layout_height="100dp"
+                     android:layout_width="70dp"
+                     android:layout_marginEnd="50dp"
+                     android:background="#555555"
+                     android:id="@+id/fotoOut" />
+
+                <TextView
+                     android:layout_height="wrap_content"
+                     android:layout_width="wrap_content"
+                     android:background="#000000"
+                     android:padding="10dp"
+                     android:textSize="20sp"
+                     android:textColor="#ffffff"
+                     android:id="@+id/namaOut"
+                     android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                 android:layout_height="wrap_content"
+                 android:layout_width="match_parent"
+                 android:orientation="vertical"
+                 android:layout_marginTop="20dp">
+
+                <TextView
+                     android:layout_height="wrap_content"
+                     android:layout_width="match_parent"
+                     android:background="#222222"
+                     android:padding="5dp"
+                     android:textSize="20sp"
+                     android:textColor="#ffffff"
+                     android:text="DATA PRIBADI" />
+
+                <TextView
+                     android:layout_height="wrap_content"
+                     android:layout_width="match_parent"
+                     android:background="#ffffff"
+                     android:textColor="#000000"
+                     android:id="@+id/pribadiOut"
+                     android:textStyle="italic" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                 android:layout_height="wrap_content"
+                 android:layout_width="match_parent"
+                 android:orientation="vertical"
+                 android:layout_marginTop="20dp">
+
+                <TextView
+                     android:layout_height="wrap_content"
+                     android:layout_width="match_parent"
+                     android:background="#222222"
+                     android:padding="5dp"
+                     android:textSize="20sp"
+                     android:textColor="#ffffff"
+                     android:text="KONTAK" />
+
+                <TextView
+                     android:layout_height="wrap_content"
+                     android:layout_width="match_parent"
+                     android:background="#ffffff"
+                     android:textColor="#000000"
+                     android:id="@+id/kontakOut"
+                     android:textStyle="italic" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                 android:layout_height="wrap_content"
+                 android:layout_width="match_parent"
+                 android:orientation="vertical"
+                 android:layout_marginTop="20dp">
+
+                <TextView
+                     android:layout_height="wrap_content"
+                     android:layout_width="match_parent"
+                     android:background="#222222"
+                     android:padding="5dp"
+                     android:textSize="20sp"
+                     android:textColor="#ffffff"
+                     android:text="PENDIDIKAN" />
+
+                <TextView
+                     android:layout_height="wrap_content"
+                     android:layout_width="match_parent"
+                     android:background="#ffffff"
+                     android:textColor="#000000"
+                     android:id="@+id/pendidikanOut"
+                     android:textStyle="italic" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                 android:layout_height="wrap_content"
+                 android:layout_width="match_parent"
+                 android:orientation="vertical"
+                 android:layout_marginTop="20dp">
+
+                <TextView
+                     android:layout_height="wrap_content"
+                     android:layout_width="match_parent"
+                     android:background="#222222"
+                     android:padding="5dp"
+                     android:textSize="20sp"
+                     android:textColor="#ffffff"
+                     android:text="PENGALAMAN" />
+
+                <TextView
+                     android:layout_height="wrap_content"
+                     android:layout_width="match_parent"
+                     android:background="#ffffff"
+                     android:textColor="#000000"
+                     android:id="@+id/pengalamanOut"
+                     android:textStyle="italic" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
